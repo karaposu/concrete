@@ -1,10 +1,6 @@
-Here's the final version with the updated wording:
 
----
+**Concrete**
 
-**Project Name:** Concrete
-
-**Overview:**  
 Concrete is an AI-powered project definition tool designed to transform raw ideas into fully defined, meticulously written implementation-ready plans, which can then be fed back into AI for complete implementation. It aims to establish a custom-tailored documentation creation methodology specifically for AI implementations, allowing the transformation of raw concepts into detailed plans that AI can work with independently, without further user input.
 
 - Guides users through a structured process that refines initial ideas.
@@ -14,15 +10,16 @@ Concrete is an AI-powered project definition tool designed to transform raw idea
 - Allows users to input and categorize notes throughout the process, ensuring thorough documentation.
 - Enables AIs to act as users, fostering a collaborative environment where humans and AIs work side by side, each complementing the other's skills.
 
+
 Concrete also facilitates the complete automation of idea generation and implementation, acknowledging that ideas can originate from AI as well. This creates a fully automated pipeline from concept to execution.
 
 **What Concrete Is Not:**  
 Concrete specializes in generating detailed technical documentation but does not handle the implementation itself. However, if an implementation error is encountered, it can be fed to Concrete and it can automatically refine and adjust the documentation using a backpropagation-like process.
 
+![Example Image](concrete_drawio.png)
 
+![Example Image](concrete-ui_drawio.png)
 
-**Overview:**
-Concrete is an AI-powered project management tool designed to transform raw ideas into fully defined, meticulously written implementation-ready plans. It guides users through a structured process that refines their initial concepts, generates detailed documentation, and organizes all relevant project information. The tool also allows users to input and categorize notes throughout the process, ensuring that every aspect of the project is thoroughly documented and easily accessible.
 
 **Key Features:**
 1. **Idea Refinement:**
@@ -37,11 +34,13 @@ Concrete is an AI-powered project management tool designed to transform raw idea
    
 3. **LLM-Generated Outputs:**
    - At each substage, the AI generates refined versions of the user’s inputs, which are displayed in read-only windows for review.
+   
+4. **BackPropagation**
 
-4. **Notes Management:**
+5. **Notes Management:**
    - A notes tab is available throughout the process, allowing users to take categorized notes (e.g., related to features, restrictions, platform compatibility). These notes are stored in a database and can be retrieved or reviewed later.
 
-5. **Comprehensive Documentation:**
+6. **Comprehensive Documentation:**
    - Once all stages are completed, the tool compiles all inputs and refined outputs into a final, comprehensive project document that is ready for implementation.
 
 **Database Schema:**
