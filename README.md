@@ -1,6 +1,25 @@
-### **Project Summary: Concrete**
+Here's the final version with the updated wording:
+
+---
 
 **Project Name:** Concrete
+
+**Overview:**  
+Concrete is an AI-powered project definition tool designed to transform raw ideas into fully defined, meticulously written implementation-ready plans, which can then be fed back into AI for complete implementation. It aims to establish a custom-tailored documentation creation methodology specifically for AI implementations, allowing the transformation of raw concepts into detailed plans that AI can work with independently, without further user input.
+
+- Guides users through a structured process that refines initial ideas.
+- Generates both technically and use case complete comprehensive documentation.
+- Organizes all relevant project information.
+- Performs compatibility checks after each step and adjusts if any issues are found.
+- Allows users to input and categorize notes throughout the process, ensuring thorough documentation.
+- Enables AIs to act as users, fostering a collaborative environment where humans and AIs work side by side, each complementing the other's skills.
+
+Concrete also facilitates the complete automation of idea generation and implementation, acknowledging that ideas can originate from AI as well. This creates a fully automated pipeline from concept to execution.
+
+**What Concrete Is Not:**  
+Concrete specializes in generating detailed technical documentation but does not handle the implementation itself. However, if an implementation error is encountered, it can be fed to Concrete and it can automatically refine and adjust the documentation using a backpropagation-like process.
+
+
 
 **Overview:**
 Concrete is an AI-powered project management tool designed to transform raw ideas into fully defined, meticulously written implementation-ready plans. It guides users through a structured process that refines their initial concepts, generates detailed documentation, and organizes all relevant project information. The tool also allows users to input and categorize notes throughout the process, ensuring that every aspect of the project is thoroughly documented and easily accessible.
