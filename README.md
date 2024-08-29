@@ -16,9 +16,9 @@ Concrete also facilitates the complete automation of idea generation and impleme
 **What Concrete Is Not:**  
 Concrete specializes in generating detailed technical documentation but does not handle the implementation itself. However, if an implementation error is encountered, it can be fed to Concrete and it can automatically refine and adjust the documentation using a backpropagation-like process.
 
-![Example Image](concrete_drawio.png)
-
-![Example Image](concrete-ui_drawio.png)
+![Example Image](concrete.drawio.png)
+     
+![Example Image](concrete-ui.drawio.png)
 
 
 **Key Features:**
